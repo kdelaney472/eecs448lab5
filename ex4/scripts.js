@@ -8,7 +8,6 @@ function change(){
 	let bg_r = document.getElementById('bg_r').value;
 	let bg_g = document.getElementById('bg_g').value;
 	let bg_b = document.getElementById('bg_b').value;
-	console.log(bo_r, bo_g, bo_b, bo_wth, bg_r, bg_g, bg_b);
 	
 	let dest = document.getElementById('e4text');
 	dest.style.borderColor = "rgb(" + bo_r + ", " + bo_g + ", " + bo_b + ")";
